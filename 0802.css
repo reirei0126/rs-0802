@@ -48,6 +48,10 @@
     background: #ff0;
 }
 
+#talklog div{
+    font-size: large;
+}
+
 #client-list{
     grid-row: 1;
     grid-column: 3;
