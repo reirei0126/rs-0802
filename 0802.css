@@ -27,7 +27,7 @@
   #container {
     display: grid; /* グリッドレイアウト */
     grid-template-rows: 338px 338px;
-    grid-template-columns: 392px 750px 392px;
+    grid-template-columns: 392px 752px 392px;
 }
 
 #client-info{
