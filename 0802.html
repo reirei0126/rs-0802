@@ -18,10 +18,10 @@
     </ul>-->
 </header>
 
-<h2>音声認識サンプル</h2>
-<button id="btn">start</button>
-<div id="content" cols="100" rows="10"></div>
-
+<div id="container">
+    <button id="btn">start</button>
+    <div id="talklog" cols="100" rows="10"></div>
+</div>
 <script>
 //音声認識の準備
 const speech = new webkitSpeechRecognition();
@@ -29,7 +29,7 @@ speech.lang = 'ja-JP';
 
 //使用する変数を用意
 const btn = document.getElementById('btn');
-const content = document.getElementById('content');
+const content = document.getElementById('talklog');
 
 
 btn.addEventListener('click' , function() {
