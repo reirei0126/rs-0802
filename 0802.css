@@ -26,8 +26,8 @@
 
   #container {
     display: grid; /* グリッドレイアウト */
-    grid-template-rows: 337px 337px;
-    grid-template-columns: 391px 752px 391px;
+    grid-template-rows: 335px 335px;
+    grid-template-columns: 390px 750px 390px;
 }
 
 #client-info{
@@ -70,7 +70,7 @@
 	/* こいつが重要 */
   overflow-y:scroll;
   overflow-x: hidden;
-	height:580px;
+	height:575px;
 	line-height:2.5;
 	padding:5px 0;
 }
