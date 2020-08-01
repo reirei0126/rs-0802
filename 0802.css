@@ -27,7 +27,7 @@
   #container {
     display: grid; /* グリッドレイアウト */
     grid-template-rows: 338px 338px;
-    grid-template-columns: 392px 750px 392px;
+    grid-template-columns: 393px 750px 393px;
 }
 
 #client-info{
@@ -70,9 +70,16 @@
 	/* こいつが重要 */
   overflow-y:scroll;
   overflow-x: hidden;
-	height:575px;
+	/*height:575px;*/
 	line-height:2.5;
-	padding:5px 0;
+  padding:5px 0;
+}
+#content{
+  height:575px;
+}
+
+#list{
+  height:275px;
 }
  .scrollarea ul {
     list-style: none;
