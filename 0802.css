@@ -26,8 +26,8 @@
 
   #container {
     display: grid; /* グリッドレイアウト */
-    grid-template-rows: 335px 335px;
-    grid-template-columns: 385px 750px 385px;
+    grid-template-rows: 336px 336px;
+    grid-template-columns: 388px 750px 388px;
 }
 
 #client-info{
