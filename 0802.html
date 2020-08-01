@@ -25,9 +25,12 @@
     <div id="product-list">
         <h2>Product-List</h2>
     </div>
-    <div id="talklog" cols="15" rows="10">
-        <h2>TalkLog15</h2>
+    <div id="talklog">
+        <h2>TalkLog　</h2>
         <button id="btn" class="btn-square-little-rich">start</button>
+        <div id="content">
+            <!--音声認識の内容が入る-->
+        </div>
     </div>
     <div id="client-list">
         <h2>Client-List</h2>
@@ -43,7 +46,7 @@ speech.lang = 'ja-JP';
 
 //使用する変数を用意
 const btn = document.getElementById('btn');
-const content = document.getElementById('talklog');
+const content = document.getElementById('content');
 
 
 btn.addEventListener('click' , function() {
@@ -68,7 +71,7 @@ speech.onresult = function(e) {
         var autotext =  e.results[0][0].transcript
         console.log(e);
         console.log(autotext);
-        content.innerHTML += '<div>'+ autotext +'</div>';
+        content.innerHTML += autotext +'<br>';
     }
 }
 
