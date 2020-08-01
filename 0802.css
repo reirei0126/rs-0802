@@ -52,6 +52,16 @@
     font-size: large;
 }
 
+#wrepper {
+  height: 100px;
+  width: 752px;
+  overflow-y: scroll;
+}
+
+#content{
+  background-color: aliceblue;
+}
+
 #client-list{
     grid-row: 1;
     grid-column: 3;
